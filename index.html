@@ -12,7 +12,27 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 
+<form action="post">
+  <label for="fullname">Full Name</label>
+  <input type="text" id="fullname" name="fullname" placeholder="Enter Name" required>
 
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email" placeholder="Enter Email" required>
+
+  <label for="phone">Phone</label>
+  <input type="text" id="phone" name="phone" placeholder="Enter Telephone (optional)">
+
+  <label for="message">Your Message</label>
+  <textarea id="message" name="message" placeholder="Please type your message here"></textarea>
+
+  <h3>What is your hobby</h3>
+  <div>
+  <input type="checkbox" id="checkbox" name="Soccer" value="Soccer">Soccer <br>
+  <input type="checkbox" id="checkbox" name="Footy" value="Footy">Footy <br>
+  <input type="checkbox" id="checkbox" name="Cricket" value="Cricket">Cricket <br>
+  <input type="Submit" value="Submit your hobby">
+  </div>
+</form>
       <!-- Add a label for 'fullname'-->
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
